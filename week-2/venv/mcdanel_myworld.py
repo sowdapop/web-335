@@ -1,5 +1,5 @@
 #
-#    Title: mcdanel_myworld.py
+#   Title: mcdanel_myworld.py
 #   Author: Kayla McDanel
 #   Date: 18 August 2022
 #   Description: Example file for outputting values.

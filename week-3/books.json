@@ -1,43 +1,23 @@
 {
-    "nodeBookCo": {
-        "book_author": [
+    "publisher": {
+        "publisher_code": 486406512,
+        "publisher_name": "Dover Publications",
+        "publisher_address": "Mineola, NY",
+        "book": [
+         {
+        "book_isbn": 9780486406510,
+        "book name": "The Book of All Things",
+        "book_price": "$50.00",
+        "author": [
             {
-                "book_id": 601,
-                "author_id": 102,
-                "author2_id": 207
+              "_id": "102",
+              "author_f_name": "John",
+              "author_l_name": "Smith",
+              "author_phone": 5555678,
+              "author_email": "jsmith@gmail.com"
             }
-        ],
-         "author_id": [
-            {
-            "_id": 102,
-            "author_f_name": "Charles",
-            "author_l_name": "Dickens",
-            "author_phone": 5551234,
-            "author_email": "cdickens@gmail.com"
-            },
-            {
-            "_id": 207,
-            "author_f_name": "John",
-            "author_l_name": "Smith",
-            "author_phone": 5555678,
-            "author_email": "jsmith@gmail.com"
-            }
-        ],
-        "book_id": [
-            {
-            "_id": 601,
-            "book name": "The Book of All Things",
-            "book_isbn": 9780486406510,
-            "book_price": "$50.00",
-            "publisher_id": 1006
-            }
-        ],
-        "publisher_id": [{
-            "_id": 1006,
-            "publisher_name": "Dover Publications",
-            "publisher_code": 486406512,
-            "publisher_address": "Mineola, NY"
-            }
-        ]
+          ]
+        }
+      ]
     }
-}
+  }

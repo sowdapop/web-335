@@ -1,0 +1,33 @@
+[
+    {
+        "firstName": "Roland",
+        "lastName": "Wayne",
+        "roles": [
+            {
+                "id": "201",
+                "text": "admin",
+                "permissions": [
+                    {
+                        "id": "2002",
+                        "text": "update"
+                    },
+                    {
+                        "id": "301",
+                        "text": "delete"
+                    }
+                ]
+            },
+           {
+            "id": "202",
+            "text": "admin",
+            "permissions": [
+                {
+                    "id": "2003",
+                    "text": "read"
+                }
+            ]
+           }
+        ]
+
+    }
+]

@@ -30,9 +30,6 @@ div_total = divide(num4, num5)
 mul_total = multiply(num2, num5)
 
 #Variable to hold string output
-output = "4 + 4 is {0}".format(add_total)
-output = "10 - 6 is {0}".format(sub_total)
-output = "8 / 2 is {0}".format(div_total)
-output = "10 * 2 is {0}".format(mul_total)
+output = "4 + 4 is {0}\n10 - 6 is {1}\n8 / 2 is {2}\n10 * 2 is {3}\n".format(add_total, mul_total, sub_total,div_total)
 
 print(output)

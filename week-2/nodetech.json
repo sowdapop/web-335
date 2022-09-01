@@ -1,0 +1,31 @@
+[
+    {
+        "student_id": "435076",
+        "first_name": "Jake",
+        "last_name": "Forester",
+        "enrollments": [
+            {
+                "term": "Semester 4",
+                "gpa": "3.6",
+                "start_date": "08/04/2021",
+                "end_date": "06/30/2023",
+                "courses": [
+                    {
+                        "course_id": "WEB 231",
+                        "description": "Agile and Scrum",
+                        "instructor": "Professor Krasso",
+                        "score": "95",
+                        "letter_grade": "A"
+                    },
+                    {
+                        "course_id": "WEB 330",
+                        "description": "Portfolios",
+                        "instructor": "Professor Kumar",
+                        "score": "98",
+                        "letter_grade": "A"
+                    }
+                ]
+            }
+        ]
+    }
+]

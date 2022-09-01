@@ -1,0 +1,51 @@
+[
+    {
+        "_id": "555",
+        "first_name": "Kayla",
+        "last_name": "McDanel",
+        "date_of_birth": "September 1988",
+        "user_name": "ksmcdanel",
+        "invoices": [
+            {
+                "_id": "001",
+                "create_date": "03/06/2022",
+                "ship_date": "03/08/2022",
+                "subtotal": "39.33",
+                "line_items": [
+                    {
+                        "_id": "i101",
+                        "name": "Pilot Frixon Pens",
+                        "price": "27.35",
+                        "qty": "1"
+                    },
+                    {
+                        "_id": "i334",
+                        "name": "Izze Juice",
+                        "price": "5.99",
+                        "qty": "2" 
+                    }
+                ]
+            },
+            {
+                "_id": "002",
+                "create_date": "04/05/2022",
+                "ship_date": "04/08/2022",
+                "subtotal": "40.84",
+                "line_items": [
+                    {
+                        "_id": "i509",
+                        "name": "Stapler",
+                        "price": "10.89",
+                        "qty": "1"
+                    },
+                    {
+                        "_id": "i287",
+                        "name": "Planner",
+                        "price": "5.99",
+                        "qty": "5" 
+                    }
+                ]
+            }
+        ]
+    }
+]

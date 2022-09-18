@@ -6,8 +6,8 @@
  */
 
 // Delete the houses and students collections.
-db.houses.drop()
-db.students.drop()
+//db.houses.drop()
+//db.students.drop()
 
 // Create the houses and students collections using Document Validation.
 db.createCollection("houses", {

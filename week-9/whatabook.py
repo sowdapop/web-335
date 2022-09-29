@@ -16,7 +16,8 @@ client = MongoClient ("mongodb+srv://web335_user:s3cret@web335db.n31cdf0.mongodb
 db = client ['web335DB']
 
 # Display list of books (make easy to read)
-
+for books in db.books.find({}, {"title": 1, "author": 1, "_id": 0}):
+    print(books)
 
 # Supply list of genre choice, display results based on selection
 

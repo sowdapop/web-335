@@ -16,16 +16,24 @@ client = MongoClient ("mongodb+srv://web335_user:s3cret@web335db.n31cdf0.mongodb
 db = client ['web335DB']
 
 # Display list of books (make easy to read)
-#for books in db.books.find({}, {"title": 1, "author": 1, "_id": 0}):
-#    print(books)
+for books in db.books.find({}, {"title": 1, "author": 1, "_id": 0}):
+     print(books)
 
+# Display a list of books by genre
 # Supply list of genre choice, display results based on selection
-genres = 'Fantasy', 'Mystery', 'Sci-Fi', 'Thriller', 'Romance'
-input = "Select a genre " + genres
-for books in db.books.find({}, {"genre": 1}):
-    print(books)
+select = input ('Select a genre: Fantasy, Mystery, Sci_Fi, Thriller, Romance. ')
 
-# Prompt user to enter a customerId, display wishlist by customerId.
+if select == 'Fantasy' or select == 'Mystery' or select == 'Sci_Fi' or select == 'Thriller' or select == 'Romance':
+    for book in db.books.find({'genre': select}, {'title': 1, 'genre': 1}):
+        print(book)
+else:
+    print("Please select a valid genre")
 
+# Display customer's wishlist by customerId
+select = input ('To view your wishlist, please enter your customer ID. ')
 
-# Basic error handling for an invalid customerId (if/else or switch statement)
+if select == 'c1007' or select == 'c1008' or select == 'c1009':
+    for customer in db.customers.find({'customerId': select}, {'wishlistitems': 1}):
+        print(customer)
+else:
+    print("Please enter a valid ID")

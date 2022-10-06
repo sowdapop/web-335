@@ -37,10 +37,11 @@ db.customers.update(
   );
   
   // Remove a  book from a customer’s wishlist.
+  db.customers.find({ customerId: "c1008" });
   db.customers.update(
     { customerId: "c1008" },
     {
-      $push: {
+      $pull: {
         wishlistitems: {
           bookId: "ISBN 10006",
           genre: "Sci_Fi",
@@ -49,5 +50,4 @@ db.customers.update(
         },
       },
     }
-  );
 

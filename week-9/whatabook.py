@@ -27,4 +27,5 @@ for books in db.books.find({}, {"genre": 1}):
 
 # Prompt user to enter a customerId, display wishlist by customerId.
 
+
 # Basic error handling for an invalid customerId (if/else or switch statement)
